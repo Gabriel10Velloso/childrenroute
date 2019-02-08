@@ -1,0 +1,64 @@
+.nav-pai {
+    height: 55px;
+    background: rgb(168, 56, 92);
+}
+
+.nav-filho-yoyube_iconJPG {
+    width: 40px;
+    position: absolute;
+    margin-top: 12px;
+}
+input{
+       max-height: 30px;
+       max-width: 250px;
+    // width: 2vw;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8) !important;
+  -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.8) !important;
+          box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.8) !important;
+}
+
+.nav-filho-search-icon{
+    position: absolute;
+    margin: 15px 0px 0px 60%; 
+}
+
+.nav-filho-logo {
+    margin: -4px 0px 0px 42px;
+    position: absolute;
+    font-family: "Yu Gothic UI Semibold", sans-serif;
+    font-size: 20px;
+}
+
+
+
+.nav-filho-menu-text {
+    margin: -4px 0px 0px -25px;
+    position: absolute;
+}
+
+.dropdown-button-position{
+    margin: 55px 0px 0px -150px;
+    min-width: 200px; /* Changed this to accomodate content width */
+
+}
+
+.start{
+    color: rgb(168, 56, 92);
+    font-weight: bold; 
+}
+
+.dropdown-text{
+    margin-left:-20px; 
+    color: black;
+    font-size: 14px;
+    font-family: "Yu Gothic UI Semibold", sans-serif;
+
+    
+}
+

@@ -1,0 +1,57 @@
+
+
+<section class="section1-header-nav">
+    <nav class="nav-pai">
+        <div class=" container">
+            <img class="nav-filho-yoyube_iconJPG" src="./assets/img/youtube_icon.jpg" alt="" />
+            <a class="nav-filho-logo">Fictícia vídeos</a>
+            <span class="material-icons  nav-filho-search-icon">search</span>
+            <span>
+                <input [(ngModel)]="teste2" (ngModelChange)="valuechange($event)"
+                 type="text" style="margin-left:62% "  maxlength="50">
+            </span>
+            <ul id="nav-mobile" class="right">
+            
+                <li>
+                    <span class="nav-filho-menu-text">Menu</span>
+
+                    <!-- Dropdown Trigger -->
+                    <a class="dropdown-trigger  dropdown-button  " type="text" data-activates="dropdown-perfil">
+                        <i class="material-icons right nav-filho-menu-icon">menu</i>
+                    </a>
+
+                    <!-- Dropdown Structure -->
+                    <ul id="dropdown-perfil" class="dropdown-content dropdown-button-position">
+                        <li class="">
+                            <a [routerLink]="['/vagas_com']">
+                                <i class="material-icons left prefix start">star_border</i>
+                                <span class="dropdown-text">Destaques</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/all_videos']"  >
+                                <i class="material-icons left prefix start">play_circle_outline</i>
+                                <span class="dropdown-text">Vídeos</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+<!-- <videos-search></videos-search>
+    
+    <videos-list></videos-list> -->
+
+
+    
+   
+    <button [routerLink]="['/videosearch']" routerLinkActive="router-link-active" >1111111</button>
+    <button [routerLink]="['/videoslist']" routerLinkActive="router-link-active" >2222222</button>
+    <button [routerLink]="['/videoall']" routerLinkActive="router-link-active" >333333333</button>
+    
+    <router-outlet></router-outlet>
+    
+    
